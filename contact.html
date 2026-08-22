@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Korns Staffing LLC</title>
+  <meta name="description" content="Contact Korns Staffing LLC in Oklahoma City. Demo form for employers and job seekers — no live backend on this site.">
+  <meta property="og:title" content="Contact Korns Staffing LLC">
+  <meta property="og:description" content="Reach Korns Staffing LLC in Oklahoma City. Hiring or looking for work.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">
+        <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect width="48" height="48" rx="6" fill="#c06a2e"/><path d="M10 36V12h6.2L26 24.6V12h6.8v24h-6.2L16.8 23.4V36H10z" fill="#121a24"/><rect x="36" y="28" width="4.5" height="8" fill="#f3ede3"/></svg>
+        <span class="logo-text">
+          <span class="logo-mark">Korns Staffing</span>
+          <span class="logo-sub">Oklahoma</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="employers.html">Employers</a></li>
+          <li><a href="candidates.html">Job seekers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="nav-cta" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h1>Write to Korns Staffing.</h1>
+        <p class="lede">Oklahoma City, Oklahoma. Employers and job seekers both use this page. There is no public phone or street address on this site.</p>
+      </div>
+    </div>
+    <section>
+      <div class="wrap">
+        <p class="form-note"><strong>This form is a demo.</strong> It does not send a message, email, or ticket. Nothing leaves your browser. Use it to see how intake will work; it will not reach Korns Staffing.</p>
+        <form id="contact-form" action="#" method="post" novalidate>
+          <div>
+            <label for="name">Name <span class="req">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email <span class="req">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div>
+            <label for="role">I am <span class="req">*</span></label>
+            <select id="role" name="role" required>
+              <option value="">Choose one</option>
+              <option value="hiring">Hiring — I represent an employer</option>
+              <option value="seeking">Seeking work</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" required placeholder="Role, location, timing — whatever we need to answer you."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit demo form</button>
+        </form>
+        <p id="form-status" class="form-status" tabindex="-1">Form received in this browser only. It was not sent. This is a demonstration — no email went out.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div>
+          <strong style="color:#f3ede3">Korns Staffing LLC</strong><br>
+          Oklahoma City, Oklahoma
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="employers.html">Employers</a>
+          <a href="candidates.html">Job seekers</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <p class="legal">© 2026 Korns Staffing LLC. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
