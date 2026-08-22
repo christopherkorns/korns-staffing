@@ -77,7 +77,7 @@ a:hover { color: var(--copper); }
   text-decoration: none;
   color: var(--paper);
 }
-.logo svg { width: 42px; height: 42px; flex-shrink: 0; }
+.logo-seal { height: 48px; width: auto; flex-shrink: 0; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .logo-mark {
   font-family: Fraunces, Georgia, serif;
